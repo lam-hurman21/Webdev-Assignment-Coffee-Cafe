@@ -1,62 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel and Dice Cafe - Register</title>
+    <link rel="stylesheet" href="csslab.css">
 </head>
 <body>
 
-    <h1>Register</h1>
+    <nav class="nav">
+        <a class="nav-brand" href="index.html">Pixel and Dice Cafe</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a class="active" href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        <a href="index.html">Home</a> |
-        <a href="games.html">Games</a> |
-        <a href="register.html">Register</a> |
-        <a href="contact.html">Contact</a>
-    </p>
+    <main class="container">
+        <h1>Register</h1>
+        <h2>Sign Up Form</h2>
+        <p>Fill in this form to join our cafe.</p>
 
-    <hr>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
 
-    <h2>Sign Up Form</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
 
-    <p>Fill in this form to join our cafe.</p>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
 
-    <form>
-        <p>
-            <label>Name:</label><br>
-            <input type="text" name="name">
-        </p>
+            <div class="form-group">
+                <label for="plan">Plan:</label>
+                <select id="plan" name="plan">
+                    <option>Student (Free)</option>
+                    <option>Regular</option>
+                </select>
+            </div>
 
-        <p>
-            <label>Email:</label><br>
-            <input type="email" name="email">
-        </p>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="3"></textarea>
+            </div>
 
-        <p>
-            <label>Password:</label><br>
-            <input type="password" name="password">
-        </p>
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </main>
 
-        <p>
-            <label>Plan:</label><br>
-            <select name="plan">
-                <option>Student (Free)</option>
-                <option>Regular</option>
-            </select>
-        </p>
-
-        <p>
-            <label>Message:</label><br>
-            <textarea name="message" rows="3" cols="30"></textarea>
-        </p>
-
-        <p>
-            <input type="submit" value="Sign Up">
-        </p>
-    </form>
-
-    <hr>
-
-    <p><a href="index.html">Back to Home</a></p>
+    <footer class="footer">
+        <p>Copyright 2026 Pixel and Dice Cafe</p>
+    </footer>
 
 </body>
 </html>

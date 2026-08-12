@@ -1,43 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel and Dice Cafe - Home</title>
+    <link rel="stylesheet" href="csslab.css">
 </head>
 <body>
 
-    <h1>Pixel and Dice Board Game Cafe</h1>
-    <p>
-        <a href="index.html">Home</a> |
-        <a href="games.html">Games</a> |
-        <a href="register.html">Register</a> |
-        <a href="contact.html">Contact</a>
-    </p>
+    <nav class="nav">
+        <a class="nav-brand" href="index.html">Pixel and Dice Cafe</a>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <hr>
+    <main class="container">
+        <h1>Pixel and Dice Board Game Cafe</h1>
 
-    <h2>Welcome!</h2>
-    <p>
-        This is a cafe where you can <strong>play board games</strong> and drink coffee.
-        We have over 100 games for you to try.
-    </p>
-    <img src="https://via.placeholder.com/250x150?text=Board+Games" alt="Board games">
-    <h3>Why come here?</h3>
-    <ul>
-        <li>Lots of games</li>
-        <li>Friendly staff</li>
-        <li>Free Wi-Fi</li>
-    </ul>
+        <div class="card">
+            <h2>Welcome!</h2>
+            <p>
+                This is a cafe where you can <strong>play board games</strong> and drink coffee.
+                We have over 100 games for you to try.
+            </p>
+            <img src="https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&amp;fit=crop&amp;w=700&amp;q=80" alt="Board games" width="350">
+        </div>
 
-    <h3>What to do next</h3>
-    <ol>
-        <li><a href="games.html">Look at our games</a></li>
-        <li><a href="register.html">Sign up</a></li>
-        <li><a href="contact.html">Visit us</a></li>
-    </ol>
+        <h3>Why come here?</h3>
+        <ul>
+            <li>Lots of games</li>
+            <li>Friendly staff</li>
+            <li>Free Wi-Fi</li>
+        </ul>
 
-    <hr>
+        <h3>What to do next</h3>
+        <ol>
+            <li><a href="games.html">Look at our games</a></li>
+            <li><a href="register.html">Sign up</a></li>
+            <li><a href="contact.html">Visit us</a></li>
+        </ol>
 
-    <p>Copyright 2026 Pixel and Dice Cafe</p>
+        <p><a class="btn" href="register.html">Join the cafe</a></p>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright 2026 Pixel and Dice Cafe</p>
+    </footer>
 
 </body>
 </html>

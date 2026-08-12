@@ -1,55 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel and Dice Cafe - Games</title>
+    <link rel="stylesheet" href="csslab.css">
 </head>
 <body>
 
-    <h1>Our Games</h1>
+    <nav class="nav">
+        <a class="nav-brand" href="index.html">Pixel and Dice Cafe</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="games.html">Games</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        <a href="index.html">Home</a> |
-        <a href="games.html">Games</a> |
-        <a href="register.html">Register</a> |
-        <a href="contact.html">Contact</a>
-    </p>
-    <hr>
-    <h2>Popular Games</h2>
+    <main class="container">
+        <h1>Our Games</h1>
 
-    <table border="1">
-        <tr>
-            <th>Game</th>
-            <th>Players</th>
-            <th>Available</th>
-        </tr>
-        <tr>
-            <td>Catan</td>
-            <td>3-4</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Ticket to Ride</td>
-            <td>2-5</td>
-            <td>Yes</td>
-        </tr>
-        <tr>
-            <td>Codenames</td>
-            <td>4-8</td>
-            <td>No</td>
-        </tr>
-    </table>
+        <h2>Popular Games</h2>
+        <table>
+            <tr>
+                <th>Game</th>
+                <th>Players</th>
+                <th>Available</th>
+            </tr>
+            <tr>
+                <td>Catan</td>
+                <td>3-4</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Ticket to Ride</td>
+                <td>2-5</td>
+                <td>Yes</td>
+            </tr>
+            <tr>
+                <td>Codenames</td>
+                <td>4-8</td>
+                <td>No</td>
+            </tr>
+        </table>
 
-    <h2>Game Types</h2>
-    <ul>
-        <li>Strategy games</li>
-        <li>Party games</li>
-        <li>Card games</li>
-    </ul>
+        <h2>Game Types</h2>
+        <ul>
+            <li>Strategy games</li>
+            <li>Party games</li>
+            <li>Card games</li>
+        </ul>
 
-    <p><a href="register.html">Register</a> to borrow games.</p>
-    <hr>
+        <p><a class="btn" href="register.html">Register</a> to borrow games.</p>
+    </main>
 
-    <p><a href="index.html">Back to Home</a></p>
+    <footer class="footer">
+        <p>Copyright 2026 Pixel and Dice Cafe</p>
+    </footer>
 
 </body>
 </html>

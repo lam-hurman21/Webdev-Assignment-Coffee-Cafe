@@ -1,74 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel and Dice Cafe - Contact</title>
+    <link rel="stylesheet" href="csslab.css">
 </head>
 <body>
 
-    <h1>Contact Us</h1>
+    <nav class="nav">
+        <a class="nav-brand" href="index.html">Pixel and Dice Cafe</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 
-    <p>
-        <a href="index.html">Home</a> |
-        <a href="games.html">Games</a> |
-        <a href="register.html">Register</a> |
-        <a href="contact.html">Contact</a>
-    </p>
+    <main class="container">
+        <h1>Contact Us</h1>
 
-    <hr>
-
-    <h2>Our Address</h2>
-
-    <p>
-        Pixel and Dice Cafe<br>
-        42 Dice Lane<br>
-        Gamestown<br>
-        Phone: 01234 567 890<br>
-        Email: hello@pixelanddice.com
-    </p>
-
-    <h2>Opening Hours</h2>
-
-    <table border="1">
-        <tr>
-            <th>Day</th>
-            <th>Time</th>
-        </tr>
-        <tr>
-            <td>Mon - Fri</td>
-            <td>10am - 9pm</td>
-        </tr>
-        <tr>
-            <td>Sat - Sun</td>
-            <td>12pm - 6pm</td>
-        </tr>
-    </table>
-
-    <h2>Send a Message</h2>
-
-    <form>
+        <h2>Our Address</h2>
         <p>
-            <label>Your Name:</label><br>
-            <input type="text" name="name">
+            Pixel and Dice Cafe<br>
+            42 Dice Lane<br>
+            Gamestown<br>
+            Phone: 01234 567 890<br>
+            Email: hello@pixelanddice.com
         </p>
 
-        <p>
-            <label>Your Email:</label><br>
-            <input type="email" name="email">
-        </p>
+        <h2>Opening Hours</h2>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>Mon - Fri</td>
+                <td>10am - 9pm</td>
+            </tr>
+            <tr>
+                <td>Sat - Sun</td>
+                <td>12pm - 6pm</td>
+            </tr>
+        </table>
 
-        <p>
-            <label>Message:</label><br>
-            <textarea name="message" rows="4" cols="30"></textarea>
-        </p>
+        <h2>Send a Message</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
 
-        <p>
-            <input type="submit" value="Send">
-        </p>
-    </form>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
 
-    <hr>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+            </div>
 
-    <p><a href="index.html">Back to Home</a></p>
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>Copyright 2026 Pixel and Dice Cafe</p>
+    </footer>
 
 </body>
 </html>
